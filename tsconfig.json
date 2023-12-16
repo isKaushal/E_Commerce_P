@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "allowImportingTsExtensions": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -17,6 +18,13 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/api/get_all_items.ts",
+    "pages/api/get_all_users.ts",
+    "pages/api/auth/[...nextauth].js"
+  ],
   "exclude": ["node_modules"]
 }

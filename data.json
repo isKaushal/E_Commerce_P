@@ -1,0 +1,107 @@
+[
+  {
+    "item_key": 0,
+    "item_name": "Apple0",
+    "item_image": "ItemImg1",
+    "item_price": 10,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 1,
+    "item_name": "Apple1",
+    "item_image": "ItemImg2",
+    "item_price": 20,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 2,
+    "item_name": "Apple2",
+    "item_image": "ItemImg3",
+    "item_price": 30,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 3,
+    "item_name": "Apple3",
+    "item_image": "ItemImg4",
+    "item_price": 40,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 4,
+    "item_name": "Apple4",
+    "item_image": "ItemImg5",
+    "item_price": 50,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 5,
+    "item_name": "Apple5",
+    "item_image": "ItemImg6",
+    "item_price": 60,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 6,
+    "item_name": "Apple6",
+    "item_image": "ItemImg7",
+    "item_price": 70,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 7,
+    "item_name": "Apple7",
+    "item_image": "ItemImg8",
+    "item_price": 80,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 8,
+    "item_name": "Apple8",
+    "item_image": "ItemImg9",
+    "item_price": 90,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 9,
+    "item_name": "Apple9",
+    "item_image": "ItemImg10",
+    "item_price": 100,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 10,
+    "item_name": "Apple10",
+    "item_image": "ItemImg11",
+    "item_price": 110,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 11,
+    "item_name": "Apple11",
+    "item_image": "ItemImg12",
+    "item_price": 120,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 12,
+    "item_name": "Apple12",
+    "item_image": "ItemImg13",
+    "item_price": 130,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 13,
+    "item_name": "Apple13",
+    "item_image": "ItemImg14",
+    "item_price": 140,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  },
+  {
+    "item_key": 14,
+    "item_name": "Apple14",
+    "item_image": "ItemImg15",
+    "item_price": 150,
+    "item_disc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius similique neque delectus a totam illum quas amet nemo non. Minus ipsa deserunt quaerat sint accusantium saepe, cupiditate dicta libero vitae?"
+  }
+]

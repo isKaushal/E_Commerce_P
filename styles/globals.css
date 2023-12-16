@@ -2,13 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+:root {
+  --bg-clr-green: #00cb4b;
+  --bg-clr-gray: #f3f3f3;
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -24,4 +30,58 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+/* navbbar */
+
+nav {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  user-select: none;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  color: white;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
 }
+nav div:nth-child(1) {
+  font: 700;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+nav div:nth-child(1) svg {
+  margin: 0rem 1rem;
+  cursor: pointer;
+}
+
+nav div:nth-child(2) > ul {
+  display: flex;
+}
+
+nav div:nth-child(2) > ul li {
+  display: flex;
+  align-self: center;
+  margin: 0.25rem 0.5rem;
+}
+nav div:nth-child(2) > ul li:nth-child(3) {
+  font-size: 50px;
+}
+
+nav div:nth-child(2) > ul li:nth-child(3) > a > div {
+  background-color: var(--bg-clr-green);
+  border-radius: 8px;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+/* navbbar */
+/* mobile navbbar */
+
+/* mobile navbbar */

@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Delete } from "@/components/icons.tsx";
 
 export default function Cart(): React.JSX.Element {
-  const [isPriceCount, setIsPriceCount] = useState<number>(0);
+  const [isPriceCount, setIsPriceCount] = useState<number>(1);
   return (
     <Layout>
       <Section>

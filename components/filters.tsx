@@ -3,65 +3,37 @@ import { useEffect, useState } from "react";
 interface dataArrayProps {
   label: string;
   checked: boolean;
+  filter: string;
 }
 [];
+export default function Filters({
+  list,
+  setFilter,
+}: {
+  setFilter: Function;
+  list: Array<dataArrayProps>;
+}): React.JSX.Element {
+  const [dataArray, setDataArray] = useState<Array<dataArrayProps>>(list);
+  const TempDataArray: dataArrayProps[] = [...list];
 
-const DataList: dataArrayProps[] = [
-  {
-    label: "Under ₹500",
-    checked: false,
-  },
-  {
-    label: "₹500-₹1000",
-    checked: false,
-  },
-  {
-    label: "₹1000-₹1500",
-    checked: false,
-  },
-  {
-    label: "₹1500-₹2000",
-    checked: false,
-  },
-  {
-    label: "₹2000-₹5000",
-    checked: false,
-  },
-  {
-    label: "₹10000-₹15000",
-    checked: false,
-  },
-  {
-    label: "₹15000-₹20000",
-    checked: false,
-  },
-];
+  function IsRadioClicked(
+    data: any,
+    index: number,
+    { checked }: { checked: boolean }
+  ) {
+    setFilter(() => {
+      return (TempDataArray[index] = { ...data, checked: checked });
+    });
 
-export default function Filters(): React.JSX.Element {
-  function IsRadioClicked({
-    data,
-    index,
-    checked,
-  }: {
-    index: number;
-    data: any;
-    checked: any;
-  }) {
-    const TempDataArray: dataArrayProps[] = [...DataList];
-    // TempDataArray[index] = data;
-
-    console.log(TempDataArray[index]);
-    console.log((TempDataArray[index] = data));
-    console.log(checked);
-    console.log(TempDataArray);
-    console.log(DataList);
-
-    return TempDataArray;
+    setDataArray(() => {
+      TempDataArray[index] = { ...data, checked: checked };
+      return TempDataArray;
+    });
   }
 
   return (
     <>
-      {DataList.map((data, index) => {
+      {dataArray.map((data, index) => {
         return (
           <div key={index}>
             <label htmlFor={data.label}>
@@ -70,13 +42,11 @@ export default function Filters(): React.JSX.Element {
                   className="m-4"
                   type="checkbox"
                   name={data.label}
-                  defaultValue={"false"}
                   checked={data.checked}
                   onChange={(event) =>
-                    IsRadioClicked({
-                      data: data,
-                      index: index,
-                      checked: event.target.value,
+                    IsRadioClicked(data, index, {
+                      ...data,
+                      checked: event.target.checked,
                     })
                   }
                   id={data.label}

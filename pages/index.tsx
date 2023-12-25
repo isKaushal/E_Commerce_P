@@ -88,6 +88,7 @@ export default function HomePage(): React.JSX.Element {
               }).map((data, index) => {
                 return (
                   <Card
+                    data={data}
                     name={data.item_name}
                     src={data.item_image}
                     price={data.item_price}

@@ -8,6 +8,7 @@ type Buttonprops = {
   children?: React.ReactNode;
   title?: string;
   className?: string;
+  type?: any;
 };
 
 export default function Button({
@@ -16,6 +17,7 @@ export default function Button({
   className,
   onClick,
   children,
+  type,
 }: Buttonprops) {
   const [isTitle, setIsTitle] = useState(false);
 
@@ -60,6 +62,7 @@ export default function Button({
         </AnimatePresence>
       ) : (
         <button
+          type={type}
           onClick={onClick}
           className={`bg-clr-green text-white font-semibold rounded-lg flex justify-center items-center py-2 px-3 ${className} text-xs sm:text-lg`}
         >

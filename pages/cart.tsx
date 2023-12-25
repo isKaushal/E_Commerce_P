@@ -1,13 +1,18 @@
+import Image from "next/image";
 import { useState } from "react";
+
+// components
 import Button from "@/components/button.tsx";
 import Items from "@/components/itemsArray.tsx";
 import Layout from "@/components/layout.tsx";
 import Section from "@/components/section.tsx";
-import Image from "next/image";
+
+// icons
 import { Delete } from "@/components/icons.tsx";
 
 export default function Cart(): React.JSX.Element {
   const [isPriceCount, setIsPriceCount] = useState<number>(1);
+
   return (
     <Layout>
       <Section>

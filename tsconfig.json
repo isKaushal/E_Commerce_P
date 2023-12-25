@@ -24,7 +24,8 @@
     "**/*.tsx",
     "pages/api/get_all_items.ts",
     "pages/api/get_all_users.ts",
-    "pages/api/auth/[...nextauth].js"
+    "pages/api/auth/[...nextauth].ts",
+    "pages/user/[index].tsx"
   ],
   "exclude": ["node_modules"]
 }

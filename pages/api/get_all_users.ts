@@ -4,14 +4,17 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 type ApiData = {
   _id?: any;
+  id?: any;
+  contact?: Number;
   msg?: String;
-  firstname?: string;
-  lastname?: string;
-  email?: string;
-  passsword?: string;
+  firstname?: String;
+  lastname?: String;
+  email?: String;
+  address?: String;
+  passsword?: String;
 };
 
-export default async function handler(
+export default async function AllUsers(
   req: NextApiRequest,
   res: NextApiResponse<ApiData>
 ) {
